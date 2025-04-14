@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand Kamu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #fdfcfa;
+      color: #1a1a1a;
+    }
+    header {
+      background: #547aa5;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .product-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .product-card h3 {
+      margin: 0.8rem 0 0.4rem;
+      color: #c26b5e;
+    }
+    .about {
+      padding: 2rem;
+      background: #eaeaea;
+      text-align: center;
+    }
+    .contact {
+      padding: 1.5rem;
+      background: #c26b5e;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Merch Brand Kamu</h1>
+    <p>Original fandom merch, designed with soul</p>
+  </header>  <section class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300" alt="Produk 1">
+      <h3>Produk 1</h3>
+      <p>Desain original fandom A</p>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/300" alt="Produk 2">
+      <h3>Produk 2</h3>
+      <p>Desain fandom B - Acrylic Keychain</p>
+    </div>
+  </section>  <section class="about">
+    <h2>Tentang Kami</h2>
+    <p>Merch handmade dengan sentuhan desain eksklusif oleh fans, untuk fans.</p>
+  </section>  <section class="contact">
+    <h2>Hubungi Kami</h2>
+    <p>DM Instagram: @brandkamu</p>
+  </section>
+</body>
+</html>
